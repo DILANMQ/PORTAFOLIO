@@ -1,0 +1,79 @@
+body {
+    background-image: url("background-image.jpg"); /* Replace with your background image */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-picture {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.profile-picture img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.button {
+    background-color: #004080; 
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f0f0f0;
+}
+
+
+.demo-reel {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.demo-reel video {
+    max-width: 100%;
+    height: auto;
+}
